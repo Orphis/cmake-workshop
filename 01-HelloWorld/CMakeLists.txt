@@ -1,2 +1,4 @@
-# Create a simple CMake project
-# It should build a binary called "helloworld" from the source file "helloworld.cpp"
+cmake_minimum_required(VERSION 3.1)
+project(01-HelloWorld)
+
+# Create an executable "helloworld" using the helloworld.cpp source file
